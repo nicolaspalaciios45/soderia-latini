@@ -1,0 +1,28 @@
+$verde-marino: #015c5c; // Puedes cambiar este tono si querés
+
+header {
+  background-color: $verde-marino;
+  padding: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  nav {
+    ul {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+
+      li a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

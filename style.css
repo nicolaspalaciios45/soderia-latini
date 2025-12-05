@@ -1,32 +1,8 @@
-/*selectores de css
-
-id
-
-class
-elemento(etiquetas html)
-*/
 /*inicio*/
-body {
-    background-color: rgb(243, 245, 244);
-    height: 100vh;
-    width: 100vw;
-    /*display: grid;
-    grid-template-columns:1fr ;
-    grid-template-rows: repeat(5,1fr);/*
-}
-* {
-    margin: 15px;
-    padding: 0px;
-    box-sizing: border-box;
-    text-align: center;
-}
-body h1{
-    grid-template-columns: 2/3;
-}
+body{
+    background-color: aqua;
+    }
 
-/*text-align: right;/*
-/*cuerpo/*
-/*encabesado header */ 
 header {
     display: grid;
     background-color: black;
@@ -91,6 +67,13 @@ main{
     height: 5vh;
 }
 
+
+.whatsapp-icon {
+    width: 40px;
+    height: 40px;
+}
+
+
 .form {
     width: 30vw;
     display: flex;
@@ -116,3 +99,8 @@ footer{
 
 /*celular*/
 @media (min-width: 320px) and (max-width: 430px) {}
+
+  
+
+
+/*# sourceMappingURL=style.css.map */
